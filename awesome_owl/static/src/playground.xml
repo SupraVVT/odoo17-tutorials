@@ -4,6 +4,17 @@
     <t t-name="awesome_owl.playground">
         <div class="p-3">
             hello world
+
+            <Counter />
+            <Counter />
+        </div>
+
+         <div class="p-3">
+            Cards
+
+            <Card title="'Card 1'" content="'Content of Card 1'" />
+            <Card title="'Card 2'" content="'Content of Card 2'" />
+           
         </div>
     </t>
 

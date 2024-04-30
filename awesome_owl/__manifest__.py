@@ -18,6 +18,7 @@
     # for the full list
     'category': 'Tutorials/AwesomeOwl',
     'version': '0.1',
+    'sequence': -1,
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'web'],

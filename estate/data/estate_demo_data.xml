@@ -1,0 +1,90 @@
+<odoo>
+    <data noupdate="1">
+        <record id="estate_property1" model="estate.property" >
+            <field name="name">1113 Hidipo Hamuntenya</field>
+            <field name="description">Lovely Flat</field>
+            <field name="postcode">10001</field>
+            <field name="date_availability">2024-01-01</field>
+            <field name="expected_price">100000.00</field>
+            <field name="selling_price">120000.00</field>
+            <field name="bedrooms">2</field>
+            <field name="living_area">150</field>
+            <field name="facades">4</field>
+            <field name="garage">False</field>
+            <field name="garden">False</field>
+            <field name="garden_area">0</field>
+            <field name="garden_orientation">north</field>
+            <field name="state">new</field>
+        </record>
+
+        <record id="estate_property2" model="estate.property" >
+            <field name="name">123 Main</field>
+            <field name="description">Big house</field>
+            <field name="postcode">10002</field>
+            <field name="date_availability">2024-02-02</field>
+            <field name="expected_price">250000</field>
+            <field name="selling_price">225000</field>
+            <field name="bedrooms">4</field>
+            <field name="living_area">700</field>
+            <field name="facades">4</field>
+            <field name="garage">True</field>
+            <field name="garden">True</field>
+            <field name="garden_area">125</field>
+            <field name="garden_orientation">west</field>
+            <field name="state">offer_received</field>
+        </record>
+
+
+        <record id="estate_property3" model="estate.property" >
+            <field name="name">Nickel Street</field>
+            <field name="description">Business Property</field>
+            <field name="postcode">10003</field>
+            <field name="date_availability">2024-03-01</field>
+            <field name="expected_price">1250000</field>
+            <field name="selling_price">1225000</field>
+            <field name="bedrooms">6</field>
+            <field name="living_area">1500</field>
+            <field name="facades">4</field>
+            <field name="garage">False</field>
+            <field name="garden">False</field>
+            <field name="garden_area">0</field>
+            <field name="garden_orientation">south</field>
+            <field name="state">offer_accepted</field>
+        </record>
+
+
+        <record id="estate_property4" model="estate.property" >
+            <field name="name">101 Second Street</field>
+            <field name="description">Lovely house</field>
+            <field name="postcode">10002</field>
+            <field name="date_availability">2024-01-01</field>
+            <field name="expected_price">200000</field>
+            <field name="selling_price">200000</field>
+            <field name="bedrooms">3</field>
+            <field name="living_area">500</field>
+            <field name="facades">4</field>
+            <field name="garage">True</field>
+            <field name="garden">True</field>
+            <field name="garden_area">150</field>
+            <field name="garden_orientation">east</field>
+            <field name="state">sold</field>
+        </record>
+
+        <record id="estate_property2" model="estate.property" >
+            <field name="name">7de Laan</field>
+            <field name="description">Medium house</field>
+            <field name="postcode">10002</field>
+            <field name="date_availability">2024-01-01</field>
+            <field name="expected_price">175000</field>
+            <field name="selling_price">175000</field>
+            <field name="bedrooms">3</field>
+            <field name="living_area">400</field>
+            <field name="facades">4</field>
+            <field name="garage">True</field>
+            <field name="garden">True</field>
+            <field name="garden_area">90</field>
+            <field name="garden_orientation">north</field>
+            <field name="state">cancelled</field>
+        </record>
+    </data>
+</odoo>
